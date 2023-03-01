@@ -1,21 +1,19 @@
 'use strict';
 
-// Chiedi all'utente il nome 5 volte - CON CICLO WHILE
+// Chiedi all'utente il numero 5 volte e fai la somma - CON CICLO WHILE
+// nuova impostazione esercizio da correggere 
 
-let i = 0;
+let count = 0
 
-while (i < 5) {
 
-let nameUser = prompt('scrivi il tuo nome');
-i++;
-console.log(nameUser);
+while (count < 5) {
+
+let numberUser = Number(prompt('scrivi un numero'));
+console.log(numberUser);
+count++;
 
 }
 
 
-// PROVA CON DO WHILE (commentata)
-// do {
-//     let nameUser = prompt('scrivi il tuo nome');
-// i++;
-// console.log(nameUser);
-// } while (i < 5) ;
+
+
