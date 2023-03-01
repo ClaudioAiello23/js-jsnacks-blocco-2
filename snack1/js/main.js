@@ -10,5 +10,12 @@ let nameUser = prompt('scrivi il tuo nome');
 i++;
 console.log(nameUser);
 
-
 }
+
+
+// PROVA CON DO WHILE (commentata)
+// do {
+//     let nameUser = prompt('scrivi il tuo nome');
+// i++;
+// console.log(nameUser);
+// } while (i < 5) ;
